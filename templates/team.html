@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c.css' %}">
+</head>
+<body>
+    <center>
+        
+        <a href="{% url 'team' %}">HOME</a>
+        <a href="{% url 'dhoni' %}">DHONI</a>
+        <a href="{% url 'rohith' %}">ROHITH</a>
+        <a href="{% url 'sachin' %}">SACHIN</a>
+        <a href="{% url 'virat' %}">VIRAT</a>
+
+    
+        <h1> 
+          INDIAN CRICKETERS 
+        </h1>
+        <img src="{% static 'images/team.jpg' %}" alt="indian cricket team ">
+        <p>
+        
+            The India men's national cricket team, also known as Team India or the Men in Blue,[10] represents India in men's international cricket. It is governed by the Board of Control for Cricket in India (BCCI), and is a Full Member of the International Cricket Council (ICC) with Test, One Day International (ODI) and Twenty20 International (T20I) status.
+            In Indian domestic cricket he played for Bihar and Jharkhand Cricket team. He is the captain of Chennai Super Kings (CSK) in the Indian Premier League. He captained the side to championships in the 2010, 2011, 2018 and 2021 editions of IPL league. Also under his captaincy Chennai Super Kings (CSK) Won Champions League T20 two times, in 2010 and 2014.
+        </p>
+    </center>
+</body>
+</html>
